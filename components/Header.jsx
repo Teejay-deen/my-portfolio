@@ -7,7 +7,7 @@ const Header = () => {
     <header className='py-8 xl:py-12 text-white'>
         <div className='container mx-auto'>
             <Link href="/">
-            <h1 className='text-4xl font-semibold text-emerald-500'>Teejay <span className='text-accent'>.</span></h1>
+            <h1 className='text-4xl font-semibold '>Teejay <span className='text-emerald-500'>.</span></h1>
             </Link>
         </div>
     </header>
