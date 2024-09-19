@@ -7,8 +7,27 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
+	container: {
+		center: true, 
+		padding:"15px",
+	},
+
+	screens : {
+		sm: "640px",
+		md: "768px",
+		lg: "960px",
+		xl: "1200px",
+	},
+
+	fontFamily: {
+		primary: "var(--font-jetBrainsMono)",
+
+	},
   	extend: {
   		colors: {
+	
+			primary: "1c1c22",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -20,7 +39,7 @@ module.exports = {
   				foreground: 'hsl(var(--popover-foreground))'
   			},
   			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
+  				DEFAULT: '1c1c22',
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {
@@ -32,8 +51,8 @@ module.exports = {
   				foreground: 'hsl(var(--muted-foreground))'
   			},
   			accent: {
-  				DEFAULT: 'hsl(var(--accent))',
-  				foreground: 'hsl(var(--accent-foreground))'
+  				DEFAULT: '00ff99',
+  				hover: "00e187"
   			},
   			destructive: {
   				DEFAULT: 'hsl(var(--destructive))',

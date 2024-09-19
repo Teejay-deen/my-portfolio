@@ -84,9 +84,9 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border ;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-primary text-white leading-loose text-foreground;
   }
 }
