@@ -34,7 +34,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div>Photo</div>
+          <div>
+            pHOTO
+          </div>
         </div>
       </div>
     </section>
