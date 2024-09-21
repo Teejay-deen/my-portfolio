@@ -1,4 +1,3 @@
-
 import Socials from "@/components/Social";
 import { Button } from "@/components/ui/button";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -35,9 +34,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div>
-            pHOTO
-          </div>
+          <div>Photo</div>
         </div>
       </div>
     </section>
