@@ -88,16 +88,5 @@ body {
   }
   body {
     @apply bg-primary text-white leading-loose text-foreground;
-
-  }
-
-  .h1{
-    @apply text-[38px] xl:text-[70px] leading-[1.1] font-semibold
-  }
-  .h2{
-    @apply text-[26px] xl:text-[38px] leading-[1.1] font-semibold
-  }
-  .h3{
-    @apply text-[16px] xl:text-[24px] leading-[1.1] font-semibold
   }
 }
