@@ -52,15 +52,15 @@ const Services = () => {
                 key={index}
                 className="flex-1 flex-col flex justify-center gap-6 group  "
               >
-                <div className="flex justify-between w-full items-center">
-                  <div className="text-5xl font-extrabold text-outline group-hover:text-emerald-500">{service.num}</div>
+                <div className="flex justify-between w-full items-center F">
+                  <div className="text-5xl font-extrabold  text-white text-outline group-hover:text-emerald-500">{service.num}</div>
                   <Link className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-emerald-500 transition-all duration-500 flex justify-center hover:-rotate-45  " href={service.href}>
                     <BsArrowDownRight className="text-black text-3xl flex justify-center mt-5"  />
                   </Link>
                 </div>
 
-                <h2>{service.title}</h2>
-                <p>{service.description}</p>
+                <h2 className="text-white">{service.title}</h2>
+                <p className="text-white">{service.description}</p>
                 {/* border */}
 
                 <div className="border-b border-white/20 w-full"></div>
