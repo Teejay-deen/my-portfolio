@@ -41,13 +41,13 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col items-center">
         <div className="mt-32 mb-20 text-center text-2xl">
           <Link href="/">
-            <h1 className="text-4xl font-semibold">
+            <h1 className="text-4xl text-white font-semibold">
               Teejay <span className="text-emerald-500">.</span>
             </h1>
           </Link>
         </div>
 
-        <nav className="flex flex-col items-center justify-center gap-8">
+        <nav className="flex text-white flex-col items-center justify-center gap-8">
           {links.map((link, index) => (
             <Link
               href={link.path}
