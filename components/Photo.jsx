@@ -23,7 +23,7 @@ const Photo = () => {
         >
           <Image
             className="object-cover"
-            src="/Assets/profile1.jpg"
+            src="/Assets/Teejay.jpg"
             priority
             quality={100}
             alt="Profile Image"
@@ -40,12 +40,12 @@ const Photo = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
-            cx="225" // Center horizontally
-            cy="225" // Center vertically
-            r="215" // Radius for 450px minus strokeWidth to fit the image's border
+            cx="225" 
+            cy="225" 
+            r="215" 
             stroke="#00ff99"
-            strokeWidth="10" // Adjust stroke width as needed
-            strokeLinecap="round" // Ensures rounded stroke edges
+            strokeWidth="10" 
+            strokeLinecap="round" 
             strokeLinejoin="round"
             initial={{ strokeDasharray: "0 1", rotate: 0 }}
             animate={{

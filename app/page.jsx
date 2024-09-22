@@ -1,5 +1,6 @@
 import Photo from "@/components/Photo";
 import Socials from "@/components/Social";
+import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { MdOutlineFileDownload } from "react-icons/md";
 
@@ -40,6 +41,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 };
