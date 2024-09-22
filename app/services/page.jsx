@@ -20,7 +20,7 @@ const services = [
   },
   {
     num: "03",
-    title: "Mobile Application Development",
+    title: "Mobile Application",
     description:
       "Mobile Application Development refers to the process of creating software applications specifically designed to run on mobile devices like smartphones and tablets. These applications can be pre-installed on devices or downloaded from app stores such as Google Play (for Android) or the Apple App Store (for iOS). Mobile app development involves a combination of user interface (UI) design, backend development.",
     href: "",
@@ -59,8 +59,8 @@ const Services = () => {
                   </Link>
                 </div>
 
-                <h2 className="text-white">{service.title}</h2>
-                <p className="text-white">{service.description}</p>
+                <h2 className="text-white text-[42px] font-bold leading-none group-hover:text-emerald-500 transition-all duration-500">{service.title}</h2>
+                <p className="text-white/60">{service.description}</p>
                 {/* border */}
 
                 <div className="border-b border-white/20 w-full"></div>

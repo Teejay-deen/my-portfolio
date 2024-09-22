@@ -23,7 +23,7 @@ const Photo = () => {
         >
           <Image
             className="object-cover"
-            src="/assets/Teejay.jpg"
+            src="/assets/teejay.jpg"
             priority
             quality={100}
             alt="Profile Image"
