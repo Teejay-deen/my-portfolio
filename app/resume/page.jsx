@@ -69,8 +69,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "I am a dedicated frontend developer with expertise in building user interfaces that are responsive, intuitive, and visually appealing. Over the years, I have developed a solid foundation in HTML5,CSS3, JavaScript (ES6+), and modern frontend libraries and frameworks such as React.js, or Next.js",
-
+    "I am a dedicated frontend developer with expertise in building user interfaces that are responsive, intuitive, and visually appealing. Over the years, I have developed a solid foundation in HTML5,CSS3, JavaScript (ES6+), and modern frontend libraries and frameworks such as React.js, or Next.js.",
   Items: [
     {
       company: "Byna Solution Inc.",
