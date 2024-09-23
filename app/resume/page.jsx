@@ -25,7 +25,8 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, perspiciatis corporis.",
+    " Hi, I'm Jimoh Tajudeen, a passionate Frontend Developer with a solid foundation in building responsive, accessible  and visually appealing web applications.  With a deep understanding of modern frontend technologies like HTML5, CSS3, TailwindCSS, Boostrap, JavaScript(ES6+) and popular frameworks like React.js and Next.js, I create intuitive and dynamic user interfaces that enhance user experience  ",
+
   info: [
     {
       fieldName: "Name:",
@@ -68,8 +69,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, perspiciatis corporis.",
-
+    "I am a dedicated frontend developer with expertise in building user interfaces that are responsive, intuitive, and visually appealing. Over the years, I have developed a solid foundation in HTML5,CSS3, JavaScript (ES6+), and modern frontend libraries and frameworks such as React.js, or Next.js.",
   Items: [
     {
       company: "Byna Solution Inc.",
@@ -77,7 +77,7 @@ const experience = {
       duration: "2022- Present",
     },
     {
-      company: "NitHub Unilag..",
+      company: "NitHub Unilag",
       Posiion: "Front end Developer Intern",
       duration: "Summer 2021",
     },
@@ -110,7 +110,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, perspiciatis corporis.",
+    "Gained a strong foundation in Mathematics and Computer Science fundamentals, Web Development, Software Engineering, etc..",
 
   Items: [
     {
@@ -151,7 +151,7 @@ const education = {
 const skill = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, perspiciatis corporis.",
+    "Frontend Development: Proficient in HTML5, CSS3, and JavaScript (ES6+) with expertise in React.js and Redux for building responsive, dynamic web applications. API Integration: Skilled in working with RESTful APIs and GraphQL, ensuring smooth frontend-backend integration.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -326,9 +326,12 @@ const Resume = () => {
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (
-                      <li key={index} className="flex justify-center gap-4 items-start xl:justify-start">
-                        <span className="text-white/60">{item.fieldName}</span>
-                        <span className="text-xl">{item.fieldValue}</span>
+                      <li
+                        key={index}
+                        className="flex justify-center gap-4 items-start xl:justify-start"
+                      >
+                        <span className="text-white/60 text-xl">{item.fieldName}</span>
+                        <span className="text-md">{item.fieldValue}</span>
                       </li>
                     );
                   })}
