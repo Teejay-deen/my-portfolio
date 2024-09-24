@@ -20,10 +20,15 @@ const Home = () => {
               in various programming languages and technologies.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button className="uppercase flex items-center gap-2" size="lg">
-                <span>Download CV</span>
-                <MdOutlineFileDownload className="text-xl" />
-              </Button>
+              <a
+                href="/assets/Jimoh-Tajudeen-CV.pdf"
+                download="Jimoh_Tajudeen_CV.pdf"
+              >
+                <Button className="uppercase flex items-center gap-2" size="lg">
+                  <span>Download CV</span>
+                  <MdOutlineFileDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
