@@ -24,8 +24,8 @@ const Photo = () => {
           <img
             className="object-cover"
             src="./assets/teejay.jpg"
-            priority
-            quality={100}
+            // priority
+            // quality={100}
             alt="Profile Image"
             width={450}
             height={450}
