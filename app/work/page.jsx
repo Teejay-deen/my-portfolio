@@ -93,7 +93,7 @@ const Work = () => {
               </div>
 
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-emerald-500 transition-all duration-500 capitalize">
-                {project.category} Project
+                {project.category} Project jhjgj
               </h2>
 
               <p>{project.description}</p>
