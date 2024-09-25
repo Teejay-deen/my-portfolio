@@ -21,11 +21,11 @@ const Photo = () => {
           }}
           className="w-[250px] h-[250px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden flex items-center justify-center mix-blend-lighten"
         >
-          <img
+          <Image
             className="object-cover"
-            src="https://i.imgur.com/BK4pSPe.jpeg"
-            // priority
-            // quality={100}
+            src="/assets/teejay.jpg"
+            priority
+            quality={100}
             alt="Profile Image"
             width={450}
             height={450}
