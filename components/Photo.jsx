@@ -23,7 +23,7 @@ const Photo = () => {
         >
           <img
             className="object-cover"
-            src="./assets/teejay.jpg"
+            src="https://i.imgur.com/BK4pSPe.jpeg"
             // priority
             // quality={100}
             alt="Profile Image"
