@@ -21,9 +21,9 @@ const Photo = () => {
           }}
           className="w-[250px] h-[250px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden flex items-center justify-center mix-blend-lighten"
         >
-          <Image
+          <img
             className="object-cover"
-            src="/assets/teejay.jpg"
+            src="./assets/teejay.jpg"
             priority
             quality={100}
             alt="Profile Image"
