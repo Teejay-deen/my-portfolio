@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -84,28 +85,26 @@ body {
 
 @layer base {
   * {
-    @apply border-border ;
+    @apply border-border;
   }
   body {
     @apply bg-primary text-white leading-loose text-foreground;
   }
 
-  .h1{
-    @apply text-[38px] xl:text-[70px] leading-[1.1] font-semibold
+  .h1 {
+    @apply text-[38px] xl:text-[70px] leading-[1.1] font-semibold;
   }
-  .h2{
-    @apply text-[26px] xl:text-[38px] leading-[1.1] font-semibold
+  .h2 {
+    @apply text-[26px] xl:text-[38px] leading-[1.1] font-semibold;
   }
-  .h3{
-    @apply text-[16px] xl:text-[24px] leading-[1.1] font-semibold
+  .h3 {
+    @apply text-[16px] xl:text-[24px] leading-[1.1] font-semibold;
   }
 
-  .text-outline{
+  .text-outline {
     -webkit-textstroke: 1px #ffffff;
- }
- .text-outline-hover{
+  }
+  .text-outline-hover {
     -webkit-textstroke: 1px #00ff99;
- }
+  }
 }
-
-
