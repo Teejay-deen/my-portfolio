@@ -3,10 +3,12 @@ import Socials from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { MdOutlineFileDownload } from "react-icons/md";
+import { Roboto } from 'next/font/google';
 
 const Home = () => {
+ 
   return (
-    <section className="h-full ">
+    <section className="h-full font-roboto ">
       <div className="container mx-auto h-full">
         <div className="flex justify-between flex-col xl:flex-row items-center xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
