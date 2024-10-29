@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Roboto } from 'next/font/google';
 
-const Home = () => { 
+const Home = () => {
   return (
     <section className="h-full font-roboto ">
       <div className="container mx-auto h-full">
