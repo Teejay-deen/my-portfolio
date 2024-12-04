@@ -34,7 +34,7 @@ const Photo = () => {
 
         
         <motion.svg
-          className="absolute  top-0 left-0 w-[250px] h-[250px] xl:w-[450px] xl:h-[450px]"
+          className="absolute top-0 left-0 w-[250px] h-[250px] xl:w-[450px] xl:h-[450px]"
           fill="transparent"
           viewBox="0 0 450 450"
           xmlns="http://www.w3.org/2000/svg"
