@@ -27,10 +27,11 @@ const Photo = () => {
             src="/assets/teejay.jpg"
             priority
             quality={100}
-            alt="My Profile Image"
+            alt="Profile Image"
             width={450}
             height={450}
           />
+          
         </motion.div>
 
         
