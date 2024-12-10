@@ -30,12 +30,12 @@ const Photo = () => {
             alt="Profile Image"
             width={450}
             height={450}
-            
+
           />
           
         </motion.div>
 
-        
+         
         <motion.svg
           className="absolute top-0 left-0 w-[250px] h-[250px] xl:w-[450px] xl:h-[450px]"
           fill="transparent"
