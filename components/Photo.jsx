@@ -30,6 +30,7 @@ const Photo = () => {
             alt="Profile Image"
             width={450}
             height={450}
+            
           />
           
         </motion.div>
