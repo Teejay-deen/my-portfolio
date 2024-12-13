@@ -30,7 +30,6 @@ const Photo = () => {
             alt="Profile Image"
             width={450}
             height={450}
-
           />
           
         </motion.div>
@@ -43,6 +42,7 @@ const Photo = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
+          
             cx="225" 
             cy="225" 
             r="215" 
