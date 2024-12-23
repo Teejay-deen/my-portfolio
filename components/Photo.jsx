@@ -59,6 +59,7 @@ const Photo = () => {
               repeat: Infinity,
               ease: "linear",
               repeatType:"reverse"
+              
             }}
           />
         </motion.svg>
