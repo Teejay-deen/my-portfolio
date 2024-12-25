@@ -12,7 +12,6 @@ const Photo = () => {
           transition: { delay: 2, duration: 0.4, ease: "easeIn" },
         }}
       >
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
@@ -22,7 +21,6 @@ const Photo = () => {
           className="w-[250px] h-[250px]  xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden flex items-center justify-center mix-blend-lighten"
         >
           <Image
-          
             className="object-cover"
             src="/assets/teejay.jpg"
             priority
@@ -31,10 +29,10 @@ const Photo = () => {
             width={450}
             height={450}
           />
-          
+
         </motion.div>
 
-         
+
         <motion.svg
           className="absolute top-0 left-0 w-[250px] h-[250px] xl:w-[450px] xl:h-[450px]"
           fill="transparent"
@@ -42,12 +40,12 @@ const Photo = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
-            cx="225" 
-            cy="225" 
-            r="215" 
+            cx="225"
+            cy="225"
+            r="215"
             stroke="#00ff99"
-            strokeWidth="10" 
-            strokeLinecap="round" 
+            strokeWidth="10"
+            strokeLinecap="round"
             strokeLinejoin="round"
             initial={{ strokeDasharray: "0 1", rotate: 0 }}
             animate={{
@@ -58,7 +56,7 @@ const Photo = () => {
               duration: 4,
               repeat: Infinity,
               ease: "linear",
-              repeatType:"reverse"
+              repeatType: "reverse"
             }}
           />
         </motion.svg>
