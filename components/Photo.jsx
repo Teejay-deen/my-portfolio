@@ -12,7 +12,6 @@ const Photo = () => {
           transition: { delay: 2, duration: 0.4, ease: "easeIn" },
         }}
       >
-        {/* Circular Image Container */}
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -23,6 +22,7 @@ const Photo = () => {
           className="w-[250px] h-[250px]  xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden flex items-center justify-center mix-blend-lighten"
         >
           <Image
+          
             className="object-cover"
             src="/assets/teejay.jpg"
             priority
