@@ -61,7 +61,6 @@ const Services = () => {
 
                 <h2 className="text-white text-[42px] font-bold leading-none group-hover:text-emerald-500 transition-all duration-500">{service.title}</h2>
                 <p className="text-white/60">{service.description}</p>
-                {/* border */}
 
                 <div className="border-b border-white/20 w-full"></div>
               </div>
