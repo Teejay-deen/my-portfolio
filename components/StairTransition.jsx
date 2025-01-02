@@ -20,6 +20,7 @@ const StairTransition = () => {
               opacity: 0,
               transition: { delay: 1, duration: 0.4, ease: "easeInOut" },
             }}
+            
           />
         </div>
       </AnimatePresence>
