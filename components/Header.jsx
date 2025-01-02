@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="text-4xl font-semibold ">
-            Teejay  <span className="text-emerald-500">.</span>
+            Teejay <span className="text-emerald-500">.</span>
           </h1>
         </Link>
 
@@ -20,6 +20,7 @@ const Header = () => {
           <Link href="/contact">
             <Button>Hire me.</Button>
           </Link>
+          
         </div>
 
         {/* Mobile nav */}
