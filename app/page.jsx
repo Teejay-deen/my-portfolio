@@ -29,7 +29,6 @@ const Home = () => {
                 <Button className="uppercase flex items-center gap-2" size="lg">
                   <span>Download CV</span>
                   <MdOutlineFileDownload className="text-xl" />
-                  
                 </Button>
               </a>
               <div className="mb-8 xl:mb-0">
