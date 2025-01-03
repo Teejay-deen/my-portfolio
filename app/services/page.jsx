@@ -15,7 +15,7 @@ const services = [
     num: "02",
     title: "UI/UX Design",
     description:
-      "Design refers to the process of creating and enhancing user interfaces and user experiences for digital products, such as websites, mobile apps, and software. It combines creativity, psychology, and technology to craft interfaces that are visually appealing, easy to navigate, and focused on providing an optimal user experience",
+      "Design refers to the process  of creating and enhancing user interfaces and user experiences for digital products, such as websites, mobile apps, and software. It combines creativity, psychology, and technology to craft interfaces that are visually appealing, easy to navigate, and focused on providing an optimal user experience",
     href: "",
   },
   {
