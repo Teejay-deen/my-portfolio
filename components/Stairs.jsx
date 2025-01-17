@@ -23,6 +23,7 @@ const Stairs = () => {
     <>
       {Array(6)
         .fill()
+        
         .map((_, index) => (
           <motion.div
             key={index}
