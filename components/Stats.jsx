@@ -45,6 +45,7 @@ const Stats = () => {
           })}
         </div>
       </div>
+      
     </section>
   );
 };
