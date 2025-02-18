@@ -13,6 +13,7 @@ const socials = [
   { icons: <FaYoutube />, path: "https://www.youtube.com/@JimohTajudeen-sq2pc" },
 ];
 
+
 const Socials = ({containerStyles, iconStyles}) => {
   return <div className={containerStyles}>
     {socials.map((item, index)=>{
