@@ -58,7 +58,7 @@ const about = {
     },
     {
       fieldName: "Language:",
-      fieldValue: "English, Yoruba, Hausa",
+      fieldValue: "English, Yoruba, Hausa ",
     },
   ],
 };
@@ -104,8 +104,6 @@ const experience = {
   ],
 };
 
-//education data
-
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
@@ -125,7 +123,7 @@ const education = {
     },
     {
       institution: "Kwara State University, Malete",
-      degree: "Msc in Mathematic",
+      degree: "Msc in Mathematics",
       duration: " 2024",
     },
     {
@@ -196,7 +194,7 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-12 xl:py-0  min-h-[80vh] flex items-center justify-center"
+      className="py-12 mb-2 xl:py-0  min-h-[80vh] flex items-center justify-center"
     >
       <div className="container mx-auto ">
         <Tabs
@@ -301,7 +299,7 @@ const Resume = () => {
                               <div className="text-6xl group-hover:text-emerald-500 transition-all duration-300">
                                 {item.icon}
                               </div>
-                            </TooltipTrigger>
+                            </TooltipTrigger> 
 
                             <TooltipContent>
                               <p className="capitalize">{item.name}</p>
