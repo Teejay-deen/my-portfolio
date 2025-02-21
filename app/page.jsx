@@ -20,7 +20,7 @@ const Home = () => {
               I excel at crafting elegant digital experiences and I am proficient
               in various programming languages and technologies.
             </p>
-            <div className="flex flex-col xl:flex-row items-center gap-8">
+            <div className="flex flex-col xl:flex-row items-center gap-8">  
               <a
                 href="/assets/Jimoh-Tajudeen-CV.pdf"
                 download="Jimoh_Tajudeen_CV.pdf"
