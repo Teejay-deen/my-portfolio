@@ -32,14 +32,14 @@ const Home = () => {
                 </Button>
               </a>
               <div className="mb-8 xl:mb-0">
-                <Socials
+                <Socials 
                   containerStyles="flex gap-6"
                   iconStyles=" w-9 h-9 border hover:text-white hover:transition-all duration-500 border-emerald-500 rounded-full flex justify-center text-emerald-500 text-base hover:bg-emerald-500 items-center"
                 />
               </div>
             </div>
           </div>
-          <div className="order-1 mb-8 xl:mb-0 xl:order-none">
+          <div className="order-1  mb-8 xl:mb-0 xl:order-none">
             <Photo />
           </div>
         </div>
