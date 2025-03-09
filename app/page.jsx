@@ -38,6 +38,7 @@ const Home = () => {
                 />
               </div>
             </div>
+            
           </div>
           <div className="order-1  mb-8 xl:mb-0 xl:order-none">
             <Photo />
