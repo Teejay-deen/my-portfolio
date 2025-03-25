@@ -21,7 +21,6 @@ const Photo = () => {
           className="w-[250px] h-[250px]  xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden flex items-center justify-center mix-blend-lighten"
         >
           <Image
-  
           
             className="object-cover"
             src="/assets/teejay.jpg"
