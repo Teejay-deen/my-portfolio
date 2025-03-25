@@ -126,7 +126,6 @@ const education = {
       degree: "Msc in Mathematics",
       duration: " 2024",
     },
-    
     {
       institution: "Online Course Platform ",
       degree: "Front end web Development Bootcamp",
