@@ -42,6 +42,7 @@ const Home = () => {
           <div className="order-1  mb-8 xl:mb-0 xl:order-none">
             <Photo />
           </div>
+          
         </div>
       </div>
       <Stats />
