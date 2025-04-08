@@ -39,6 +39,7 @@ const Services = () => {
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
       <div className="container mx-auto">
         <motion.div
+        
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
           initial={{ opacity: 0 }}
           animate={{
