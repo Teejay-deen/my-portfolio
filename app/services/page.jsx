@@ -10,6 +10,7 @@ const services = [
     description:
       "Web Development is the process of creating, building, and maintaining websites and web applications that are accessible over the internet. It involves various aspects such as web design, web programming, content creation, and database management to ensure websites are visually appealing, functionally robust, and responsive across different devices",
     href: "",
+    
   },
   {
     num: "02",
