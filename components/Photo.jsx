@@ -12,6 +12,7 @@ const Photo = () => {
           transition: { delay: 2, duration: 0.4, ease: "easeIn" },
         }}
       >
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
