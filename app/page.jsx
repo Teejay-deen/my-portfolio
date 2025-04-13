@@ -7,6 +7,7 @@ import { Roboto } from 'next/font/google';
 
 const Home = () => {
   return (
+    
     <section className="h-full font-roboto">
       <div className="container mx-auto h-full">
         <div className="flex justify-between flex-col xl:flex-row items-center xl:pt-8 xl:pb-24">
