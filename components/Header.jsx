@@ -13,13 +13,13 @@ const Header = () => {
             Teejay<span className="text-emerald-500">.</span>
           </h1>
         </Link>
-
         {/* Desktop nav */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Link href="/contact">
             <Button>Hire me.</Button>
           </Link>
+          
         </div>
 
         {/* Mobile nav */}
