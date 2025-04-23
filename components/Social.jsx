@@ -20,6 +20,7 @@ const Socials = ({containerStyles, iconStyles}) => {
             <Link className={iconStyles} href={item.path} key={index}>
                 {item.icons}
             </Link>
+            
         )
     })}
   </div>;
