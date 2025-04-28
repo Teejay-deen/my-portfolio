@@ -12,6 +12,7 @@ const services = [
     href: "",
   },
   {
+    
     num: "02",
     title: "UI/UX Design",
     description:
