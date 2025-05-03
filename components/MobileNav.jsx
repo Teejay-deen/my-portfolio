@@ -34,7 +34,6 @@ const MobileNav = () => {
 
   return (
     <Sheet>
-      
       <SheetTrigger>
         <CiMenuFries className="text-[32px] text-emerald-500" />
       </SheetTrigger>
