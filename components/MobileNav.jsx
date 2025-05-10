@@ -22,6 +22,7 @@ const links = [
     path: "/work",
   },
   {
+    
     name: "contact",
     path: "/contact",
   },
@@ -30,7 +31,6 @@ const links = [
 const MobileNav = () => {
   const pathname = usePathname();
   console.log(pathname);
-
   return (
     <Sheet>
       <SheetTrigger>
