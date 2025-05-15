@@ -266,7 +266,6 @@ const Resume = () => {
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
                             {items.degree}
                           </h3>
-
                           <div className="flex gap-3 item">
                             <span className="w-[6px] h-[6px] rounded-full bg-emerald-500 mt-4"></span>
                             <p className="text-white/60">
