@@ -93,7 +93,6 @@ const Contact = () => {
                 <SelectTrigger className="w-full bg-black/70">
                   <SelectValue placeholder="select a services" />
                 </SelectTrigger>
-
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
@@ -115,6 +114,7 @@ const Contact = () => {
           </div>
 
           {/* info */}
+
           <div className="flex flex-1 items-center xl:justify-end xl:order-none order-1 mb-8 xl:mb-0">
             <ul className="flex flex-col gap-10">
               {info.map((item, index) => {
