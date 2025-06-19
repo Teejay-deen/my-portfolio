@@ -88,7 +88,6 @@ const Contact = () => {
                 />
               </div>
               {/* select */}
-
               <Select className="">
                 <SelectTrigger className="w-full bg-black/70">
                   <SelectValue placeholder="select a services" />
