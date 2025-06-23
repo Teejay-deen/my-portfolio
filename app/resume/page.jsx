@@ -258,6 +258,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
+                          
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-emerald-500">
