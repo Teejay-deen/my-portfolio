@@ -49,6 +49,7 @@ const Contact = () => {
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none  ">
             <form
+            
               action=""
               className="flex flex-col gap-6 bg-[#27272c] rounded-xl p-10"
             >
@@ -87,6 +88,7 @@ const Contact = () => {
                   type="phone"
                 />
               </div>
+              
               {/* select */}
               <Select className="">
                 <SelectTrigger className="w-full bg-black/70">
