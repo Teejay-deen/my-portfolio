@@ -25,7 +25,6 @@ const Home = () => {
               <a
                 href="/assets/Jimoh-Tajudeen-CV.pdf"
                 download="Jimoh_Tajudeen_CV.pdf"
-
               >
                 <Button className="uppercase flex items-center gap-2" size="lg">
                   <span>Download CV</span>
@@ -40,7 +39,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          
           <div className="order-1  mb-8 xl:mb-0 xl:order-none">
             <Photo />
           </div>
