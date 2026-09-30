@@ -12,7 +12,7 @@ const Header = () => {
         <Link href="/">
           <h1 className="text-4xl font-semibold ">
             TAJ<span className="text-emerald-500">.</span>
-          </h1>
+          </h1> 
         </Link>
         {/* Desktop nav */}
         
