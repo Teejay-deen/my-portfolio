@@ -19,7 +19,7 @@ const Socials = ({containerStyles, iconStyles}) => {
         return (
             <Link className={iconStyles} href={item.path} key={index}>
                 {item.icons}
-            </Link>
+            </Link> 
         )
     })}
   </div>;
