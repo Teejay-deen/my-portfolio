@@ -7,7 +7,7 @@ const Photo = () => {
     <div className="w-full h-full flex items-center justify-center relative">
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{   
+        animate={{
           opacity: 1,
           transition: { delay: 2, duration: 0.4, ease: "easeIn" },
         }}
@@ -55,7 +55,7 @@ const Photo = () => {
             }}
             transition={{
               duration: 7,
-              repeat: Infinity,
+              repeat: Infinity, 
               ease: "linear",
               repeatType: "reverse"
             }}
