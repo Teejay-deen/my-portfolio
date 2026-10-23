@@ -172,6 +172,7 @@ const skill = {
       icon: <FaJs />,
       name: "Vanilla JavaScript",
     },
+    
     {
       icon: <FaReact />,
       name: "React.Js",
